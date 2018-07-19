@@ -1,0 +1,59 @@
+#content{
+  margin-left: 30px;
+}
+
+#make-transaction{
+  background-color: lightblue;
+}
+
+#transaction-list{
+  height: 300px;
+  overflow-y: scroll;
+  background-color: lightblue;
+}
+
+.transaction-list-item{
+  margin: 30px;
+  width: 800px;
+  height: 60px;
+  clear: both;
+  background-color: lightgray;
+}
+
+.transaction-list-item-head{
+  background-color: darkgray;
+}
+
+.transaction-list-item-other-id{
+  float: left;
+  width: 200px;
+}
+
+.transaction-list-item-amount{
+  float: left;
+  margin-left: 120px;
+  width: 100px;
+}
+
+.transaction-list-item-status{
+  float: left;
+  margin-left: 120px;
+  color: white;
+  width: 80px;
+  padding: 5px;
+}
+
+#ac-profile{
+  border: 10px solid gray;
+  position: fixed;
+  background-color: lightgray;
+  float: left;
+  right: 0px;
+  width: 500px;
+  height: 100px;
+}
+
+#ac-head{
+  background-color: darkgray;
+  font-family: monospace;
+}
